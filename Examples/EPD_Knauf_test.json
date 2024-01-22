@@ -1,0 +1,60 @@
+{
+    "@context": "https://www.opendthx.org/w/opendthx20",
+    "dicts": [
+        {
+            "dId": "BW",
+            "dName": "Buildwise",
+            "dUri": "https://search-test.bsdd.buildingsmart.org/uri/bw/BW"
+        },
+        {
+            "dId": "Knauf",
+            "dName": "Knauf BIM Application",
+            "dUri": "https://some-link-to-knauf.be"
+        }
+    ],
+    "objects": [
+        {
+            "oId": "3712a4c5-e820-4f42-959b-963dsad7f20c",
+            "oDict": "Knauf",
+            "oName": "Knauf MP 75 Plaster",
+            "oStartAt": "2013-10-05T00:00:00",
+            "oEndAt": "2035-10-05T00:00:00",
+            "oUri": "https://some-link-to-knauf.be/viewer/3712a4c5-e820-4f42-959b-963dsad7f20c/Knauf MP 75 Plaster",
+            "properties": [
+                {
+                    "pId": "06cff420-2433-4ce7-a67e-24e42a385b5b",
+                    "pDict": "BW",
+                    "pName": "GWP-total",
+                    "pStartAt": "2013-10-05T00:00:00",
+                    "pEndAt": "2035-10-05T00:00:00",
+                    "pUri": "https://identifier.buildingsmart.org/uri/bw/BW/0.1/prop/gwp-total",
+                    "pIsDyn": false,
+                    "pUnit": "kg CO2 eq.",
+                    "pValue": {
+                        "a1a3": 0.125,
+                        "a4": 0.0166,
+                        "a5": 0.0518,
+                        "b1": null,
+                        "b2": null,
+                        "b3": null,
+                        "b4": null,
+                        "b5": null,
+                        "b6": null,
+                        "b7": null,
+                        "c1": null,
+                        "c2": 0.0053,
+                        "c3": 0.00122,
+                        "c4": 0.000214,
+                        "d": -0.00456
+                    }
+                }
+            ]
+        }
+    ],
+    "classes": [
+        {
+          "cId": "IfcCoveringCLADDING",
+          "cDict": "IFC"
+        }
+    ]
+}

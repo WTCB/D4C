@@ -1,0 +1,28 @@
+@prefix : <https://example.org> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Object a rdfs:Class ;
+  rdfs:label "Object"@en ;
+  rdfs:label "Object"@nl .
+
+:Unit a rdfs:Class ;
+  rdfs:label "Unit"@en .
+
+:Property a rdfs:Class ;
+  rdfs:label "Property"@en ;
+  rdfs:label "Eigenschap"@nl .
+
+:hasProperty a rdf:Property ;
+  rdfs:label "hasProperty"@en ;
+  rdfs:domain :Object ;
+  rdfs:range :Property .  
+
+:hasUnit a rdf:Property ;
+  rdfs:label "hasUnit"@en ;
+  rdfs:domain :Property ;
+  rdfs:range :Unit .

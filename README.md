@@ -2,8 +2,8 @@
 This repository hosts a proposed exchange protocol for building data. 
 
 # Model
-If you want to integrate the exchange protocol in your application, you can find the documentation on the model here: [[JSON-LD model]](Model/README.md)\ 
-It is structured as an JSON-LD schema. More info about JSON-LD: https://json-ld.org/
+If you want to integrate the exchange protocol in your application, you can find the documentation on the model here: [[Model]](Model/README.md).\ 
+
 
 # Properties
 The protocol uses URI's to identify properties. The properties are hosted on the test environment of the bSDD.\

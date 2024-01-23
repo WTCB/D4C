@@ -2,7 +2,7 @@
 This repository hosts a proposed exchange protocol for building data. 
 
 # Model
-If you want to integrate the exchange protocol in your application, you can find the documentation on the model here: [[JSON-LD model]](Model/README.md)\
+If you want to integrate the exchange protocol in your application, you can find the documentation on the model here: [[JSON-LD model]](Model/README.md)\ 
 It is structured as an JSON-LD schema. More info about JSON-LD: https://json-ld.org/
 
 # Properties
@@ -14,7 +14,10 @@ If you want to search for other properties in the test environment use: https://
 More about the bSDD: https://github.com/buildingSMART/bSDD
 
 # Examples
-See examples folder
+See examples folder: [Examples](Examples/README.md)
+
+# API
+See API folder: [API information](API/README.md)
 
 # FAQ
 

@@ -31,7 +31,7 @@ Attributes of a property have the prefix **p**. Example: **pId**, **pName**.
 | pId | 1..1 | url | identifier of the property | objects[i].properties[j].pId |
 | pDict | 1..1 | string | name of the dictionary of the property | objects[i].properties[j].pDict |
 | pName | 1..1 | string | name of the property | objects[i].properties[j].pName |
-
+| pUnit | 0..1 | string | unit of the property | objects[i].properties[j].pUnit |
 
 
 

@@ -24,7 +24,7 @@ Attributes of an object have the prefix **o**. Example: **oId**, **oName**.
 
 | Field | DataType | Cardinality | Description | Path |
 |----------|----------|----------|----------|----------|
-| @context | urI | 1 | url pointing to the schema definition | @context |
+| @context | URI | 1 | url pointing to the schema definition | @context |
 | dicts |   | 1..1 |  | groups the referenced dictionairies | dicts |
 | dicts[d] |   | 1..n |dictionary | dicts[d] |
 | dId | URI | 1 | identifier of the dictionary | dicts[dId] |
@@ -50,6 +50,10 @@ Attributes of an object have the prefix **o**. Example: **oId**, **oName**.
 ### Relation
 | Field                         | DataType     | Cardinality     | Description                                                                                               |
 |-------------------------------|--------------|-----------------|-----------------------------------------------------------------------------------------------------------|
+| id                            | URI          | 1               | Identifier of the relation                                                                                |
+| type                          | URI          | 1               | Type of the relation                                                                                      |
+| relatedObject                 | URI          | 1               | Related Object of the relation                                                                            |
+| relatingObject                | URI          | 1               | Relating Object of the relation                                                                           |
 
 
 

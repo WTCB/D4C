@@ -22,7 +22,7 @@ Attributes of an object have the prefix **o**. Example: **oId**, **oName**.
 
 ## List of fields
 
-| Key | Occurence (specifies if optional or not) | Format | Comment | Path |
+| Field | Occurence (specifies if optional or not) | DataType | Description | Path |
 |----------|----------|----------|----------|----------|
 | @context | 1..n | url | url pointing to the schema definition | @context |
 | dicts | 1..1 |  | groups the referenced dictionairies | dicts |
@@ -30,7 +30,7 @@ Attributes of an object have the prefix **o**. Example: **oId**, **oName**.
 | dId | 1..1 | url | identifier of the dictionary | dicts[dId] |
 | dName | 1..1 | string | name of the dictionary | dicts[dName] |
 | objects | 1..1 |  | groups the objects | objects[i] |
-| objects[i] | 1..n |  | [Object](#object) | objects[i] |
+| objects[i] | 1..n | [Object](#object) |  | objects[i] |
 
 ### Object
 | Field                         | DataType     | Description                                                                                               |

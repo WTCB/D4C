@@ -22,7 +22,7 @@ Attributes of an object have the prefix **o**. Example: **oId**, **oName**.
 
 ## List of fields
 
-| Field | Occurence (specifies if optional or not) | DataType | Description | Path |
+| Field | Cardinality | DataType | Description | Path |
 |----------|----------|----------|----------|----------|
 | @context | 1..n | url | url pointing to the schema definition | @context |
 | dicts | 1..1 |  | groups the referenced dictionairies | dicts |
@@ -33,23 +33,23 @@ Attributes of an object have the prefix **o**. Example: **oId**, **oName**.
 | objects[i] | 1..n | [Object](#object) |  | objects[i] |
 
 ### Object
-| Field                         | DataType     | Description                                                                                               |
-|-------------------------------|--------------|-----------------------------------------------------------------------------------------------------------|
-| id                            | URL          | Identifier of the object                                                                                  |
-| name                          | String       | Name of the object                                                                                        |
-| property                      | [Property](#property)       | Properties of the object                                                                                        |
+| Field                         | DataType     | Cardinality     | Description                                                                                               |
+|-------------------------------|--------------|-----------------|-----------------------------------------------------------------------------------------------------------|
+| id                            | URL          | 1               | Identifier of the object                                                                                  |
+| name                          | String       | 1..*            | Name of the object                                                                                        |
+| property                      | [Property](#property) | 1..*        | Property of the object                                                                                        |
 
 ### Property
-| Field                         | DataType     | Description                                                                                               |
-|-------------------------------|--------------|-----------------------------------------------------------------------------------------------------------|
-| id                            | URL          | Identifier of the property                                                                                |
-| dictionary                    | String       | Name of the dictionary of the property                                                                    |
-| name                          | String       | Name of the property                                                                                      |
-| unit                          | String       | Unit of the property                                                                                      |
+| Field                         | DataType     | Cardinality     | Description                                                                                               |
+|-------------------------------|--------------|-----------------|-----------------------------------------------------------------------------------------------------------|
+| id                            | URL          | 1               | Identifier of the property                                                                                |
+| dictionary                    | String       |                 | Name of the dictionary of the property                                                                    |
+| name                          | String       | 1..*            | Name of the property                                                                                      |
+| unit                          | String       |                 | Unit of the property                                                                                      |
 
 ### Relation
-| Field                         | DataType     | Description                                                                                               |
-|-------------------------------|--------------|-----------------------------------------------------------------------------------------------------------|
+| Field                         | DataType     | Cardinality     | Description                                                                                               |
+|-------------------------------|--------------|-----------------|-----------------------------------------------------------------------------------------------------------|
 
 
 

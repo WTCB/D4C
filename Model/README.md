@@ -8,6 +8,7 @@ This page will document the JSON-LD schema for the exchange protocol
   * [Object](#object)
   * [Property](#property)
   * [Relation](#relation)
+  * [Unit](#unit)
   
 ## json-LD format
 Data is exchanged using the JSON-LD format. More info about [json-LD](https://json-ld.org/).
@@ -37,15 +38,15 @@ Attributes of an object have the prefix **o**. Example: **oId**, **oName**.
 |-------------------------------|--------------|-----------------|-----------------------------------------------------------------------------------------------------------|
 | id                            | URI          | 1               | Identifier of the object                                                                                  |
 | name                          | String       | 1..*            | Name of the object                                                                                        |
-| property                      | [Property](#property) | 1..*        | Property of the object                                                                                        |
+| hasProperty                      | [Property](#property) | 1..*        | Property of the object                                                                                        |
 
 ### Property
 | Field                         | DataType     | Cardinality     | Description                                                                                               |
 |-------------------------------|--------------|-----------------|-----------------------------------------------------------------------------------------------------------|
 | id                            | URI          | 1               | Identifier of the property                                                                                |
-| dictionary                    | String       |                 | Name of the dictionary of the property                                                                    |
 | name                          | String       | 1..*            | Name of the property                                                                                      |
-| unit                          | String       |                 | Unit of the property                                                                                      |
+| value                          |        | 1            | Value of the property                                                                                      |
+| hasUnit                          | [Unit](#unit)       |                 | Unit of the property                                                                                      |
 
 ### Relation
 | Field                         | DataType     | Cardinality     | Description                                                                                               |
@@ -54,6 +55,8 @@ Attributes of an object have the prefix **o**. Example: **oId**, **oName**.
 | type                          | URI          | 1               | Type of the relation                                                                                      |
 | relatedObject                 | URI          | 1               | Related Object of the relation                                                                            |
 | relatingObject                | URI          | 1               | Relating Object of the relation                                                                           |
+
+### Unit
 
 
 

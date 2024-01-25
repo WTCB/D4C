@@ -30,6 +30,7 @@ Attributes of an object have the prefix **o**. Example: **oId**, **oName**.
 | dId | URI | 1 | identifier of the dictionary | dicts[dId] |
 | dName | String | 1..* |  name of the dictionary | dicts[dName] |
 | object                        | [Object](#object) | 1..* |  |  |
+| relation                      | [Relation](#relation) | 1..* |  |  |
 
 ### Object
 | Field                         | DataType     | Cardinality     | Description                                                                                               |

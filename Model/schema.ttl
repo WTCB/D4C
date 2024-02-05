@@ -1,4 +1,4 @@
-@prefix : <https://example.org> .
+@prefix d4c: <https://raw.githubusercontent.com/WTCB/D4C/main/Model/schema.ttl#> .
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -6,23 +6,35 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-:Object a rdfs:Class ;
+d4c:Object a rdfs:Class ;
   rdfs:label "Object"@en ;
   rdfs:label "Object"@nl .
 
-:Unit a rdfs:Class ;
-  rdfs:label "Unit"@en .
+d4c:Unit a rdfs:Class ;
+  rdfs:label "Unit"@en ,
+             "Eenheid"@nl .
 
-:Property a rdfs:Class ;
+d4c:Property a rdfs:Class ;
   rdfs:label "Property"@en ;
   rdfs:label "Eigenschap"@nl .
 
-:hasProperty a rdf:Property ;
-  rdfs:label "hasProperty"@en ;
-  rdfs:domain :Object ;
-  rdfs:range :Property .  
+d4c:hasProperty a rdf:Property ;
+  rdfs:label "has property"@en ,
+             "heeft eighenschap"@nl ;
+  rdfs:domain d4c:Object ,
+              d4c:Property ;
+  rdfs:range d4c:Property .  
 
-:hasUnit a rdf:Property ;
-  rdfs:label "hasUnit"@en ;
-  rdfs:domain :Property ;
-  rdfs:range :Unit .
+d4c:hasUnit a rdf:Property ;
+  rdfs:label "has unit"@en ,
+             "heeft eenheid"@nl ;
+  rdfs:domain d4c:Property ;
+  rdfs:range d4c:Unit .
+
+d4c:name rdf:type owl:DatatypeProperty ;
+  rdfs:label "name"@en ,
+             "naam"@nl ;
+  rdfs:domain d4c:Object ,
+              d4c:Property ,
+              d4c:Unit ;
+  rdfs:range xsd:string .

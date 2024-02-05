@@ -63,8 +63,8 @@
         }
       ],
       "rdfs:domain": [
-         "@id": "d4c:Object",
-         "@id": "d4c:Property"
+        { "@id": "d4c:Object" },
+        { "@id": "d4c:Property" }
       ]
     },
     {
@@ -86,9 +86,9 @@
       "@id": "d4c:name",
       "@type": "owl:DatatypeProperty",
       "rdfs:domain":  [
-         "@id": "d4c:Object",
-         "@id": "d4c:Property",
-         "@id": "d4c:Unit"
+         { "@id": "d4c:Object" },
+         { "@id": "d4c:Property" },
+         { "@id": "d4c:Unit" }
       ]
     }
   ]

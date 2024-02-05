@@ -1,0 +1,95 @@
+{
+  "@context": {
+    "d4c": "https://raw.githubusercontent.com/WTCB/D4C/main/Model/schema.ttl#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph":[
+    {
+      "@id": "d4c:Object",
+      "@type": "rdfs:Class",
+      "rdfs:label": [
+        {
+          "@value": "Object",
+          "@language": "en"
+        },
+        {
+          "@value": "Object",
+          "@language": "nl"
+        }
+      ]
+    },
+    {
+      "@id": "d4c:Property",
+      "@type": "rdfs:Class",
+      "rdfs:label": [
+        {
+          "@value": "Property",
+          "@language": "en"
+        },
+        {
+          "@value": "Eigenschap",
+          "@language": "nl"
+        }
+      ]
+    },
+    {
+      "@id": "d4c:Unit",
+      "@type": "rdfs:Class",
+      "rdfs:label": [
+        {
+          "@value": "Unit",
+          "@language": "en"
+        },
+        {
+          "@value": "Eenheid",
+          "@language": "nl"
+        }
+      ]
+    },
+    {
+      "@id": "d4c:hasProperty",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": [
+        {
+          "@value": "has property",
+          "@language": "en"
+        },
+        {
+          "@value": "heeft eigenschap",
+          "@language": "nl"
+        }
+      ],
+      "rdfs:domain": [
+         "@id": "d4c:Object",
+         "@id": "d4c:Property"
+      ]
+    },
+    {
+      "@id": "d4c:hasUnit",
+      "@type": "owl:ObjectProperty",
+      "rdfs:label": [
+        {
+          "@value": "has unit",
+          "@language": "en"
+        },
+        {
+          "@value": "heeft eenheid",
+          "@language": "nl"
+        }
+      ],
+      "rdfs:domain": "d4c:Property"
+    },
+    {
+      "@id": "d4c:name",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:domain":  [
+         "@id": "d4c:Object",
+         "@id": "d4c:Property",
+         "@id": "d4c:Unit"
+      ]
+    }
+  ]
+}

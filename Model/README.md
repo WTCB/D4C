@@ -25,11 +25,7 @@ Attributes of an object have the prefix **o**. Example: **oId**, **oName**.
 
 | Field | DataType | Cardinality | Description | Path |
 |----------|----------|----------|----------|----------|
-| @context | URI | 1 | url pointing to the schema definition | @context |
-| dicts |   | 1..1 |  | groups the referenced dictionairies | dicts |
-| dicts[d] |   | 1..n |dictionary | dicts[d] |
-| dId | URI | 1 | identifier of the dictionary | dicts[dId] |
-| dName | String | 1..* |  name of the dictionary | dicts[dName] |
+| @context | URI | 1 | url (https://raw.githubusercontent.com/WTCB/D4C/main/Model/schema.jsonld) pointing to the schema definition | @context |
 | object                        | [Object](#object) | 1..* |  |  |
 | relation                      | [Relation](#relation) | 1..* |  |  |
 
@@ -45,7 +41,8 @@ Attributes of an object have the prefix **o**. Example: **oId**, **oName**.
 |-------------------------------|--------------|-----------------|-----------------------------------------------------------------------------------------------------------|
 | id                            | URI          | 1               | Identifier of the property                                                                                |
 | name                          | String       | 1..*            | Name of the property                                                                                      |
-| value                          |        | 1            | Value of the property                                                                                      |
+| value                          | Boolean, String, Number        | 1            | Value of the property                                                                                      |
+| hasProperty                      | [Property](#property) | 1..*        | Connected Property of the property                                                                                        |
 | hasUnit                          | [Unit](#unit)       |                 | Unit of the property                                                                                      |
 
 ### Relation
@@ -57,7 +54,9 @@ Attributes of an object have the prefix **o**. Example: **oId**, **oName**.
 | relatingObject                | URI          | 1               | Relating Object of the relation                                                                           |
 
 ### Unit
-
-
-
+| Field                         | DataType     | Cardinality     | Description                                                                                               |
+|-------------------------------|--------------|-----------------|----------------------------------------------------------------------------------------------------------
+| id                            | URI          | 1               | Identifier of the relation                                                                                |
+| name                          | String       | 1..*            | Name of the property                                                                                      |
+| symbol                          | String       | 1..*            | Symbol of the property                                                                                      |
 

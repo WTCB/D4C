@@ -38,3 +38,8 @@ d4c:name rdf:type owl:DatatypeProperty ;
               d4c:Property ,
               d4c:Unit ;
   rdfs:range xsd:string .
+
+d4c:reference rdf:type owl:DatatypeProperty ;
+      rdfs:domain d4c:Object ,
+                  d4c:Property ;
+      rdfs:range xsd:anyURI .

@@ -15,11 +15,7 @@ Data is exchanged using the JSON-LD format. More info about [json-LD](https://js
 
 ## Conventions
 ### JSON attributes
-Attribute names will use the so-called lowerCamelCase style. Example: **objectName**.\
-The order of words specifies the order of attributes. Example: **dId**.\
-Identifiers have the **Id** suffix. Names have the **Name** suffix. Dates have the **At** suffix.
-Booleans have the **is** prefix.\
-Attributes of an object have the prefix **o**. Example: **oId**, **oName**.
+Attribute names will use the so-called lowerCamelCase style. Example: **hasProperty**.
 
 ## List of fields
 
@@ -27,20 +23,22 @@ Attributes of an object have the prefix **o**. Example: **oId**, **oName**.
 |----------|----------|----------|----------|----------|
 | @context | URI | 1 | url (https://raw.githubusercontent.com/WTCB/D4C/main/Model/schema.jsonld) pointing to the schema definition | @context |
 | object                        | [Object](#object) | 1..* |  |  |
-| relation                      | [Relation](#relation) | 1..* |  |  |
 
 ### Object
 | Field                         | DataType     | Cardinality     | Description                                                                                               |
 |-------------------------------|--------------|-----------------|-----------------------------------------------------------------------------------------------------------|
-| id                            | URI          | 1               | Identifier of the object                                                                                  |
-| name                          | String       | 1..*            | Name of the object                                                                                        |
+| id                            | URL or Text         |                 | Identifier of the object                                                                                  |
+| reference                     | URL          | 1               | Reference to the definition of the object in a dictionary                                                                                 |
+| name                          | Text       | 1..*            | Name of the object                                                                                        |
 | hasProperty                      | [Property](#property) | 1..*        | Property of the object                                                                                        |
+| hasRelation                     | [Relation](#relation) | 1..*        | Relation of the object                                                                                        |
 
 ### Property
 | Field                         | DataType     | Cardinality     | Description                                                                                               |
 |-------------------------------|--------------|-----------------|-----------------------------------------------------------------------------------------------------------|
-| id                            | URI          | 1               | Identifier of the property                                                                                |
-| name                          | String       | 1..*            | Name of the property                                                                                      |
+| id                            | URL or Text          | 1               | Identifier of the property                                                                                |
+| reference                     | URL          | 1               | Reference to the definition of the property in a dictionary                                                                                 |
+| name                          | Text       | 1..*            | Name of the property                                                                                      |
 | value                          | Boolean, String, Number        | 1            | Value of the property                                                                                      |
 | hasProperty                      | [Property](#property) | 1..*        | Connected Property of the property                                                                                        |
 | hasUnit                          | [Unit](#unit)       |                 | Unit of the property                                                                                      |

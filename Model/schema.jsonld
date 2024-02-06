@@ -6,7 +6,7 @@
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
     "xsd": "http://www.w3.org/2001/XMLSchema#"
   },
-  "@graph":[
+  "@graph": [
     {
       "@id": "d4c:Object",
       "@type": "rdfs:Class",
@@ -63,8 +63,12 @@
         }
       ],
       "rdfs:domain": [
-        { "@id": "d4c:Object" },
-        { "@id": "d4c:Property" }
+        {
+          "@id": "d4c:Object"
+        },
+        {
+          "@id": "d4c:Property"
+        }
       ]
     },
     {
@@ -85,11 +89,40 @@
     {
       "@id": "d4c:name",
       "@type": "owl:DatatypeProperty",
-      "rdfs:domain":  [
-         { "@id": "d4c:Object" },
-         { "@id": "d4c:Property" },
-         { "@id": "d4c:Unit" }
+      "rdfs:domain": [
+        {
+          "@id": "d4c:Object"
+        },
+        {
+          "@id": "d4c:Property"
+        },
+        {
+          "@id": "d4c:Unit"
+        }
       ]
+    },
+    {
+      "@id": "d4c:reference",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:domain": [
+        {
+          "@id": "d4c:Object"
+        },
+        {
+          "@id": "d4c:Property"
+        }
+      ],
+      "rdfs:range": "xsd:anyURI"
+    },
+    {
+      "@id": "d4c:value",
+      "@type": "owl:DatatypeProperty",
+      "rdfs:domain": [
+        {
+          "@id": "d4c:Property"
+        }
+      ],
+      "rdfs:range": "xsd:anyType"
     }
   ]
 }

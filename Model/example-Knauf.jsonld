@@ -1,0 +1,20 @@
+{
+  "@context": "https://raw.githubusercontent.com/WTCB/D4C/main/Model/schema.jsonld",
+  "@graph": [
+	{
+		"@id": "#testobject1",
+		"@type": "d4c:Object",
+      "name": [
+        {
+          "@value": "Test Object 1 (en)",
+          "@language": "en"
+        },
+        {
+          "@value": "Test Object 1 (nl)",
+          "@language": "nl"
+        }
+      ]
+	}
+]
+  
+}

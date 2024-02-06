@@ -32,9 +32,7 @@
       },
       "d4c:value": 0.125,
       "d4c:hasUnit": {
-        "@id": "#Unit1",
-        "@type": "d4c:Unit",
-        "d4c:symbol": "kg CO2 eq"
+        "@id": "#Unit1"
       },
       "d4c:hasProperty": {
         "@type": "d4c:Property",
@@ -51,9 +49,7 @@
       },
       "d4c:value": 0.0518,
       "d4c:hasUnit": {
-        "@id": "#Unit1",
-        "@type": "d4c:Unit",
-        "d4c:symbol": "kg CO2 eq"
+        "@id": "#Unit1"
       },
       "d4c:hasProperty": {
         "@type": "d4c:Property",
@@ -70,9 +66,7 @@
       },
       "d4c:value": 0.0053,
       "d4c:hasUnit": {
-        "@id": "#Unit1",
-        "@type": "d4c:Unit",
-        "d4c:symbol": "kg CO2 eq"
+        "@id": "#Unit1"
       },
       "d4c:hasProperty": {
         "@type": "d4c:Property",
@@ -89,9 +83,7 @@
       },
       "d4c:value": 0.00122,
       "d4c:hasUnit": {
-        "@id": "#Unit1",
-        "@type": "d4c:Unit",
-        "d4c:symbol": "kg CO2 eq"
+        "@id": "#Unit1"
       },
       "d4c:hasProperty": {
         "@type": "d4c:Property",
@@ -108,9 +100,7 @@
       },
       "d4c:value": 0.000214,
       "d4c:hasUnit": {
-        "@id": "#Unit1",
-        "@type": "d4c:Unit",
-        "d4c:symbol": "kg CO2 eq"
+        "@id": "#Unit1"
       },
       "d4c:hasProperty": {
         "@type": "d4c:Property",
@@ -127,9 +117,7 @@
       },
       "d4c:value": -0.00456,
       "d4c:hasUnit": {
-        "@id": "#Unit1",
-        "@type": "d4c:Unit",
-        "d4c:symbol": "kg CO2 eq"
+        "@id": "#Unit1"
       },
       "d4c:hasProperty": {
         "@type": "d4c:Property",

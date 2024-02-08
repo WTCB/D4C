@@ -5,8 +5,10 @@
   "d4c:name": "Knauf MP 75 Plaster",
   "d4c:hasProperty": [
     {
-      "@type": "d4c:Property",
-      "d4c:reference": "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/gwp-total",
+      "@type": [
+        "d4c:Property",
+        "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/gwp-total"
+      ],
       "d4c:name": {
         "@value": "Global Warming Potential total",
         "@language": "en"
@@ -21,7 +23,12 @@
         "@type": "d4c:Property",
         "d4c:reference": "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/lifecycle-stage",
         "d4c:value": "A4"
-      }
+      },
+      "https://www.w3.org/2002/07/owl#equivalentClass": [
+        {
+          "@id": "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcCoveringCLADDING"
+        }
+      ]
     },
     {
       "@type": "d4c:Property",

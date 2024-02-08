@@ -10,6 +10,12 @@ This page will document the JSON-LD schema for the exchange protocol
   * [Relation](#relation)
   * [Unit](#unit)
   
+## Used ontologies
+  * owl: https://www.w3.org/2002/07/owl
+  * rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns
+  * rdfs: http://www.w3.org/2000/01/rdf-schema
+  * xsd: http://www.w3.org/2001/XMLSchema
+
 ## json-LD format
 Data is exchanged using the JSON-LD format. More info about [json-LD](https://json-ld.org/).
 

@@ -123,6 +123,45 @@
         }
       ],
       "rdfs:range": "xsd:anyType"
+    },
+    {
+      "@id": "d4c:DictionaryReference",
+      "@type": "rdfs:Class",
+      "rdfs:label": "Dictionary Reference",
+      "rdfs:comment": "A reference to an external data dictionary adhering to EN ISO 23386.",
+      "rdfs:range": "xsd:anyURI"
+    },
+    {
+      "@id": "d4c:dictionaryURI",
+      "@type": "rdf:Property",
+      "rdfs:label": "Dictionary URI",
+      "rdfs:comment": "The URI of the external dictionary.",
+      "rdfs:domain": "d4c:DictionaryReference",
+      "rdfs:range": "xsd:anyURI"
+    },
+    {
+      "@id": "d4c:dictionaryName",
+      "@type": "rdf:Property",
+      "rdfs:label": "Dictionary Name",
+      "rdfs:comment": "The name of the external dictionary.",
+      "rdfs:domain": "d4c:DictionaryReference",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "d4c:dictionaryVersion",
+      "@type": "rdf:Property",
+      "rdfs:label": "Dictionary Version",
+      "rdfs:comment": "The version of the external dictionary.",
+      "rdfs:domain": "d4c:DictionaryReference",
+      "rdfs:range": "xsd:string"
+    },
+    {
+      "@id": "d4c:referenceURI",
+      "@type": "rdf:Property",
+      "rdfs:label": "Reference URI",
+      "rdfs:comment": "The URI reference to the specific entry within the external dictionary.",
+      "rdfs:domain": "d4c:DictionaryReference",
+      "rdfs:range": "xsd:anyURI"
     }
   ]
 }

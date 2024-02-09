@@ -1,6 +1,7 @@
 {
   "@context": {
-    "d4c": "https://raw.githubusercontent.com/WTCB/D4C/main/Model/schema.jsonld"
+    "d4c": "https://raw.githubusercontent.com/WTCB/D4C/main/Model/schema.jsonld",
+    "owl": "https://www.w3.org/2002/07/owl#"
   },
   "@id": "https://some-link-to-knauf.be/viewer/3712a4c5-e820-4f42-959b-963dsad7f20c/Knauf MP 75 Plaster",
   "@type": "d4c:Object",
@@ -28,12 +29,7 @@
         "@type": "d4c:Property",
         "d4c:reference": "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/lifecycle-stage",
         "d4c:value": "A4"
-      },
-      "https://www.w3.org/2002/07/owl#equivalentClass": [
-        {
-          "@id": "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcCoveringCLADDING"
-        }
-      ]
+      }
     },
     {
       "@type": "d4c:Property",
@@ -136,6 +132,11 @@
         "d4c:reference": "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/lifecycle-stage",
         "d4c:value": "D"
       }
+    }
+  ],
+  "owl:equivalentClass": [
+    {
+      "@id": "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcCoveringCLADDING"
     }
   ]
 }

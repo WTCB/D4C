@@ -15,7 +15,10 @@
         "@value": "Global Warming Potential total",
         "@language": "en"
       },
-      "d4c:value": 0.0166,
+      "d4c:value": {
+        "@value": 0.0166,
+        "@type": "xsd:double"
+      },
       "d4c:hasUnit": {
         "@id": "#Unit1",
         "@type": "d4c:Unit",

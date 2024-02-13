@@ -1,9 +1,9 @@
 # D4C Data model
-This page will document the JSON-LD schema for the exchange protocol
+This page will document the JSON schema for the exchange protocol
 
 ## Table of contents:
-* [json-LD format](#json-ld-format)
 * [Conventions](#conventions)
+* [Used ontologies](#used-ontologies)
 * [List of fields](#list-of-fields)
   * [Object](#object)
   * [Property](#property)
@@ -11,13 +11,9 @@ This page will document the JSON-LD schema for the exchange protocol
   * [Unit](#unit)
   
 ## Used ontologies
+The protocol uses existing ontologies instead of creating new ones. A list of used ontologies
   * owl: https://www.w3.org/2002/07/owl
   * rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns
-  * rdfs: http://www.w3.org/2000/01/rdf-schema
-  * xsd: http://www.w3.org/2001/XMLSchema
-
-## json-LD format
-Data is exchanged using the JSON-LD format. More info about [json-LD](https://json-ld.org/).
 
 ## Conventions
 ### JSON attributes

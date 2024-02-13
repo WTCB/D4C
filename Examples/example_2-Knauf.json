@@ -101,7 +101,7 @@
         "c2": 3.88e-11,
         "c3": 2.72e-11,
         "c4": 2.07e-12,
-        "d": -9.19e12
+        "d": -9.19e-12
     },
     "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/irp": {
         "a1a3": 6.37e-3,
@@ -135,7 +135,7 @@
         "c2": 1.32e-2,
         "c3": 4.64e-4,
         "c4": 1.09e-4,
-        "d": -3.83e4
+        "d": -3.83e-4
     },
     "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/esl": 60,
     "https://www.w3.org/2002/07/owl#equivalentClass": [

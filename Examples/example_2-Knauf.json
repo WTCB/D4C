@@ -67,7 +67,7 @@
         "c2": 8.00e-2,
         "c3": 1.75e-2,
         "c4": 6.93e-3,
-        "d": -7.59e2
+        "d": -7.59e-2
     },
     "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/htp-nc": {
         "a1a3": 2.63e-8,

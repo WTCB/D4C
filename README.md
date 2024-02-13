@@ -2,10 +2,10 @@
 This repository hosts a proposed exchange protocol for building data. 
 
 # Model
-If you want to integrate the exchange protocol in your application, you can find the documentation on the model here: [[Model]](Model/README.md).
+If you want to integrate the exchange protocol in your application, you can find the documentation on the model here: [Model](Model/README.md).
 
-# Properties
-The protocol uses URI's to identify properties. The properties are hosted on the test environment of the bSDD.\
+# Data dictionairies & Properties
+The protocol uses URI's to identify properties instead to integrate the use existing properties, published in datadictionairies. Only data dictionaries structured following EN ISO 23386 should be used. The API's return properties hosted on the test environment of the bSDD (buildingSMART Data Dictionary). \
 Domain that hosts the properties: [https://search-test.bsdd.buildingsmart.org/uri/bw/D4C-LCA](https://search-test.bsdd.buildingsmart.org/uri/bw/D4C-LCA) \
 Available properties on the above domain: [https://search-test.bsdd.buildingsmart.org/uri/bw/D4C-LCA/0.1](https://search-test.bsdd.buildingsmart.org/uri/bw/D4C-LCA/0.1)\
 Example of such a property '[Global Warming Potential](https://search-test.bsdd.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/gwp-fossil)' fossil fuels \

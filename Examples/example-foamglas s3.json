@@ -1,7 +1,7 @@
 {
     "id": "https://some-link-to-foamglass.be/viewer/3712a4c7-e820-4f42-959b-963dsad7f20c/foamglas_s3",
     "http://www.w3.org/2000/01/rdf-schema#label": "Foamglas S3",
-    "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/gwp-total": {
+    "https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/GWP_total": {
         "a1": 5.57,
         "a2": 8.86,
         "a3": 2.15,
@@ -154,6 +154,7 @@
         "d": 1.28e-01
     },
     "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/esl": 100,
+    "https://identifier.buildingsmart.org/uri/etim/etim/9.0/prop/EF020017": 100,
     "https://www.w3.org/2002/07/owl#equivalentClass": [
         "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcCoveringINSULATION"
     ]

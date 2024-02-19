@@ -7,3 +7,6 @@ With the right API calls you can get back information about the products in the 
 # Test API (not yet available)
 Webservice hosted by Buildwise for testing purposes with 'fake' data. It allows you as well to retrieve information about a selection of products in the structure of the protocol.
 Swaggerhub: https://app-bw-d4c-api.azurewebsites.net/swagger/index.html
+
+[Knauf example](https://app-bw-d4c-api.azurewebsites.net/v1/product/acdb59b2-f983-404a-80dc-53475fdaba93) \
+[Foamglass example](https://app-bw-d4c-api.azurewebsites.net/v1/product/5214b728-b062-4662-9722-22ef1214c08c) 

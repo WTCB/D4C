@@ -22,8 +22,24 @@ Product URI's should not have spaces nor frontslashes
 Property URI's should point towards resources structured adhering ISO 23386
 
 ## List of fields
+### Object
+| Field                         | DataType     | Cardinality     | Description                                                                                               |
+|-------------------------------|--------------|-----------------|-----------------------------------------------------------------------------------------------------------|
+| id                            | URL or Text         |    1..1             | Identifier of the object (url that returns the data)                                                                                  |
+| label [rdf]                     | string          | 1..1               |          string that defines the human readable label                                                                   |
+| name                          | Text       | 1..*            | Name of the object                                                                                        |
+| 
 
-| Field | DataType | Cardinality | Description | Path |
-|----------|----------|----------|----------|----------|
-| @context | URI | 1 | url (https://raw.githubusercontent.com/WTCB/D4C/main/Model/schema.jsonld) pointing to the schema definition | @context |
-| object                        | [Object](#object) | 1..* |  |  |
+### Property
+| Field                         | DataType     | Cardinality     | Description                                                                                               |
+|-------------------------------|--------------|-----------------|-----------------------------------------------------------------------------------------------------------|
+| property                            | URL          | 1..n               | Identifier of the property                                                                                |
+|                                                                                    |
+
+### Relation
+| Field                         | DataType     | Cardinality     | Description                                                                                               |
+|-------------------------------|--------------|-----------------|-----------------------------------------------------------------------------------------------------------|
+| relation [owl]                            | URL          | 1..n               | Relatable object of other dictionary                                                                                |
+|
+
+

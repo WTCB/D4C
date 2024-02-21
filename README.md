@@ -1,4 +1,4 @@
-![cover](resources/cover.png)
+![cover](resources/cover.svg)
 
 # Introduction
 This repository hosts a proposed exchange protocol for building data. It is produced as part of the [Digital4CircularConstruction](https://www.buildwise.be/nl/onderzoek-innovatie/onderzoeksprojecten/de-bouwsector-milieuvriendelijker-en-meer-circulair-maken-door-digitalisering-d4c/) project by Buildwise

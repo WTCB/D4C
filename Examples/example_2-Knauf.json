@@ -1,7 +1,7 @@
 {
-    "id": "https://some-link-to-knauf.be/viewer/3712a4c5-e820-4f42-959b-963dsad7f20c/Knauf MP 75 Plaster",
+    "id": "https://some-link-to-knauf.be/viewer/3712a4c5-e820-4f42-959b-963dsad7f20c/Knauf_MP_75_Plaster",
     "http://www.w3.org/2000/01/rdf-schema#label": "Knauf MP 75 Plaster",
-    "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/gwp-total": {
+    "https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/GWP_total": {
         "a1a3": 0.125,
         "a4": 0.0166,
         "a5": 0.0518,
@@ -18,7 +18,7 @@
         "c4": 0.000214,
         "d": -0.00456
     },
-    "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/odp": {
+    "ttps://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/ODP": {
         "a1a3": 3.11e-8,
         "a4": 3.14e-9,
         "a5": 1.28e-9,
@@ -35,7 +35,7 @@
         "c4": 8.63e-11,
         "d": -8.45e-10
     },
-    "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/ep-freshwater": {
+    "https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/EP_freshwater": {
         "a1a3": 1.27e-4,
         "a4": 8.74e-6,
         "a5": 4.35e-6,
@@ -52,7 +52,7 @@
         "c4": 3.02e-7,
         "d": -7.07e7
     },
-    "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/adp-fossil": {
+    "https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/ADP_fossil": {
         "a1a3": 2.36,
         "a4": 2.53e-1,
         "a5": 9.05e-2,
@@ -69,7 +69,7 @@
         "c4": 6.93e-3,
         "d": -7.59e-2
     },
-    "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/htp-nc": {
+    "https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/CTUh_NC": {
         "a1a3": 2.63e-8,
         "a4": 2.55e-9,
         "a5": 1.21e-9,
@@ -86,7 +86,7 @@
         "c4": 1.14e-11,
         "d": -1.49e-10
     },
-    "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/htp-c": {
+    "https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/CTUh_C": {
         "a1a3": 7.41e-10,
         "a4": 1.26e-10,
         "a5": 1.03e-10,
@@ -103,7 +103,7 @@
         "c4": 2.07e-12,
         "d": -9.19e-12
     },
-    "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/irp": {
+    "https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/U235": {
         "a1a3": 6.37e-3,
         "a4": 1.20e-3,
         "a5": 8.84e-4,
@@ -120,7 +120,7 @@
         "c4": 3.26e-5,
         "d": -6.33e-7
     },
-    "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/etp-fw": {
+    "https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/eco-toxicityfreshwater": {
         "a1a3": 4.38e-2,
         "a4": 4.37e-2,
         "a5": 5.40e-3,
@@ -137,7 +137,8 @@
         "c4": 1.09e-4,
         "d": -3.83e-4
     },
-    "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/esl": 60,
+    "https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/SERL": 60,
+    "https://identifier.buildingsmart.org/uri/etim/etim/9.0/prop/EF026338": "A1",
     "https://www.w3.org/2002/07/owl#equivalentClass": [
         "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcCoveringCLADDING"
     ]

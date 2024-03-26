@@ -18,7 +18,7 @@
         "c4": 0.000214,
         "d": -0.00456
     },
-    "ttps://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/ODP": {
+    "https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/ODP": {
         "a1a3": 3.11e-8,
         "a4": 3.14e-9,
         "a5": 1.28e-9,

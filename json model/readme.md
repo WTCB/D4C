@@ -19,7 +19,8 @@ The protocol uses existing ontologies instead of creating new ones. A list of us
 ### Product URI's
 Product URI's should not have spaces nor frontslashes
 ### Property URI's
-Property URI's should point towards resources structured adhering ISO 23386
+Property URI's should point towards resources structured adhering ISO 23386.
+Properties related to LCA data must be structured following ISO 22057.
 
 ## List of fields
 

@@ -2,7 +2,7 @@
     "id": "https://some-link-to-knauf.be/viewer/3712a4c5-e820-4f42-959b-963dsad7f20c/Knauf_MP_75_Plaster",
     "http://www.w3.org/2000/01/rdf-schema#label": "Knauf MP 75 Plaster",
     "https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/referenceunittype":"declared unit",
-    "https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/referencequantityarea":"0.08",
+    "https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/referencequantityarea":"0.125",
     "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/conversion-factor":"1",
     "https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/GWP_total": {
         "a1a3": 0.125,

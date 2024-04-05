@@ -11,7 +11,7 @@ If you want to integrate the exchange protocol in your application, you can find
 The protocol uses URI's to identify properties to integrate the use of existing properties, published in data dictionairies. Only data dictionaries structured following EN ISO 23386 should be used. This means that the URI should return the property and its metadata (according to EN ISO 23386) in a structured json format, for example:\
 ![alt text](resources/image.png)
 \
-The API returns the examples with properties hosted on the test environment of the bSDD (buildingSMART Data Dictionary). \
+The API returns the examples with properties hosted on the bSDD (buildingSMART Data Dictionary). \
 Example of such a property '[Global Warming Potential](https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/GWP_total)'\
 If you want to search for other properties on the bSDD, use: https://search.bsdd.buildingsmart.org/ \
 More about the bSDD: https://github.com/buildingSMART/bSDD

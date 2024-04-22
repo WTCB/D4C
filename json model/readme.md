@@ -24,9 +24,8 @@ Properties related to LCA data must be structured following ISO 22057.
 
 ## List of fields
 
-| Field                         | DataType     | Cardinality     | Description                                                                                               |
-|-------------------------------|--------------|-----------------|-----------------------------------------------------------------------------------------------------------|
-
+| Field                         | DataType     | Cardinality     | Description  
+|-------------------------------|--------------|-----------------|-----------------|
 | id                            | URL          | 1..1            | Identifier of the object (url that returns the data)                                                      |
 | label [rdfs]                  | string       | 1..1            | String that defines the human readable label                                                              |
 | equivalentClass [owl]         | URL          | 0..n                | Property which connects an object to another object (e.g., classification, IFC, ...)                      |

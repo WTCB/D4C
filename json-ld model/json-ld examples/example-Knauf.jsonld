@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "d4cc": "https://raw.githubusercontent.com/WTCB/D4C/main/Model/schema.jsonld",
+    "owl": "https://www.w3.org/2002/07/owl#"
+  },
+  "@id": "https://some-link-to-knauf.be/viewer/3712a4c5-e820-4f42-959b-963dsad7f20c/Knauf_MP_75_Plaster",
+  "http://www.w3.org/2000/01/rdf-schema#label": [
+    {
+      "@value": "Knauf MP 75 Plaster",
+      "@language": "en"
+    }
+  ],
+  "owl:equivalentClass": {
+      "@id": "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcCoveringCLADDING"
+  },
+  "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/gwp-total": [
+    {
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#value": 0.125,
+      "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/lifecycle-stage": {
+          "@id": "https://identifier.buildingsmart.org/uri/bw/BW/0.1/prop/lifecycle-stage/value/A1-A3"
+      }
+    },
+    {
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#value": 0.0166,
+      "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/lifecycle-stage": {
+          "@id": "https://identifier.buildingsmart.org/uri/bw/BW/0.1/prop/lifecycle-stage/value/A4"
+      }
+    },
+    {
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#value": 0.0518,
+      "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/lifecycle-stage": {
+          "@id": "https://identifier.buildingsmart.org/uri/bw/BW/0.1/prop/lifecycle-stage/value/A5"
+      }
+    },
+    {
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#value": 0.0053,
+      "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/lifecycle-stage": {
+          "@id": "https://identifier.buildingsmart.org/uri/bw/BW/0.1/prop/lifecycle-stage/value/C2"
+      }
+    },
+    {
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#value": 0.00122,
+      "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/lifecycle-stage": {
+          "@id": "https://identifier.buildingsmart.org/uri/bw/BW/0.1/prop/lifecycle-stage/value/C3"
+      }
+    },
+    {
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#value": 0.000214,
+      "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/lifecycle-stage": {
+          "@id": "https://identifier.buildingsmart.org/uri/bw/BW/0.1/prop/lifecycle-stage/value/C4"
+      }
+    },
+    {
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#value": -0.00456,
+      "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/lifecycle-stage": {
+          "@id": "https://identifier.buildingsmart.org/uri/bw/BW/0.1/prop/lifecycle-stage/value/D"
+      }
+    }
+  ]
+}

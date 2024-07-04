@@ -5,7 +5,7 @@
     "https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/referenceunittype": "functional unit",
     "https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/referencequantityarea": 1,
     "https://identifier.buildingsmart.org/uri/etim/etim/9.0/prop/EF010083": 1.22,
-    "hasPart": ["https://some-link-to-menuiresie-riche.be/viewer/db56d427-8a8a-44d9-8b51-2b562d057138", "https://some-link-to-generic.be/viewer/f5f409f97-e324-4598-8663-79001b090189"],
+    "https://w3id.org/bot#hasSubElement": ["https://some-link-to-menuiresie-riche.be/viewer/db56d427-8a8a-44d9-8b51-2b562d057138", "https://some-link-to-generic.be/viewer/f5f409f97-e324-4598-8663-79001b090189"],
 
     "https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/SERL": 60,
     "https://www.w3.org/2002/07/owl#equivalentClass": [

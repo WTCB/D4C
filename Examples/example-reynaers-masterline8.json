@@ -84,5 +84,7 @@
     "https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/SERL": 60,
     "https://www.w3.org/2002/07/owl#equivalentClass": [
         "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcWindow"
-    ]
+    ],
+    "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/pre-consumer-material": 30,
+    "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/post-consumer-material": 2.259
 }

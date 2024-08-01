@@ -1,9 +1,10 @@
 {
     "id": "https://some-link-to-foamglass.be/viewer/5214b728-b062-4662-9722-22ef1214c08c/foamglas_s3",
     "http://www.w3.org/2000/01/rdf-schema#label": "Foamglas S3",
+    "http://xmlns.com/foaf/0.1/Organization": "Pittsburgh Corning Europe",
     "https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/referenceunittype":"declared unit",
     "https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/referencequantityarea": 1,
-    "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/conversion-factor": 20.80,
+    "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/conversion-factor": 20,
     "https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/GWP_total": {
         "a1": 1.57E+00,
         "a2": 2.49E-01,
@@ -405,6 +406,7 @@
     },   
     "https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/SERL": 100,
     "https://identifier.buildingsmart.org/uri/etim/etim/9.0/prop/EF020017": 0.045,
+    "https://identifier.buildingsmart.org/uri/etim/etim/9.0/prop/EF025346": 1.1111
     "https://www.w3.org/2002/07/owl#equivalentClass": [
         "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcCoveringINSULATION"
     ]

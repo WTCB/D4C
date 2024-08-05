@@ -62,7 +62,7 @@
 		"c4": 1.35e-04,
 		"d": -5.62e-03
 	},
-	"https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/odp": {
+	"https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/ODP": {
 		"a1": 1.50e-06,
 		"a2": 6.77e-06,
 		"a3": 1.21e-05,
@@ -81,7 +81,7 @@
 		"c4": 1.21e-07,
 		"d": -3.56e-07
 	},
-	"https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/ap": {
+	"https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/AE": {
 		"a1": 8.74e-02,
 		"a2": 6.79e-02,
 		"a3": 1.68e-01,
@@ -100,7 +100,7 @@
 		"c4": 2.54e-03,
 		"d": -3.15e-02
 	},
-	"https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/ep-freshwater": {
+	"https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/EP_freshwater": {
 		"a1": 3.36e-04,
 		"a2": 1.30e-04,
 		"a3": 5.52e-04,
@@ -119,7 +119,7 @@
 		"c4": 3.00e-06,
 		"d": -1.42e-04
 	},
-	"https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/ep-marine": {
+	"https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/EP_marine": {
 		"a1": 2.24e-02,
 		"a2": 2.01e-02,
 		"a3": 6.83e-02,
@@ -138,7 +138,7 @@
 		"c4": 9.54e-04,
 		"d": -8.45e-03
 	},
-	"https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/ep-terrestrial": {
+	"https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/EP_terrestrial": {
 		"a1": 2.87e-01,
 		"a2": 2.31e-01,
 		"a3": 9.78e-01,
@@ -157,7 +157,7 @@
 		"c4": 1.05e-02,
 		 "d": -1.12e-01
 	},
-	"https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/poop": {
+	"https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/POCP": {
 		"a1": 7.45e-02,
 		"a2": 6.82e-02,
 		"a3": 3.45e-01,
@@ -176,7 +176,7 @@
 		"c4": 2.99e-03,
 		"d": -2.94e-02
 	},
-	"https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/adp-elements": {
+	"https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/ADP_MM": {
 		"a1": 1.02e-04,
 		"a2": 3.24e-05,
 		"a3": 5.31e-05,
@@ -195,7 +195,7 @@
 		"c4": 2.87e-07,
 		"d": -2.64e-05
 	},
-	"https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/adp-fossil": {
+	"https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/ADP_fossil": {
 		"a1": 1.26e+02,
 		"a2": 2.51e+02,
 		"a3": 1.49e+03,
@@ -214,7 +214,7 @@
 		"c4": 9.17e+00,
 		"d": -3.51e+01
 	},
-	"https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/wdp": {
+	"https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/FW": {
 		"a1": 1.93e+00,
 		"a2": 6.97e-01,
 		"a3": 1.01e+01,

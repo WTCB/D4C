@@ -55,14 +55,14 @@
 		"b4": null,
 		"b5": null,
 		"b6": null,
-		"b7": null0,
+		"b7": null,
 		"c1": 0.0000294,
 		"c2": 0.00189,
 		"c3": 0.00276,
 		"c4": 0.000152,
 		"d": -0.0074
 	},
-	"https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/odp": {
+	"https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/ODP": {
 		"a1": 0.0000019,
 		"a2": 0.00000495,
 		"a3": 0.0000311,
@@ -81,7 +81,7 @@
 		"c4": 1.18e-7,
 		"d": -4.57e-7
 	},
-	"https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/ap": {
+	"https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/AE": {
 		"a1": 0.162,
 		"a2": 0.0912,
 		"a3": 1.76,
@@ -100,7 +100,7 @@
 		"c4": 0.00239,
 		"d": -0.0389
 	},
-	"https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/ep-freshwater": {
+	"https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/EP_freshwater": {
 		"a1": 0.000914,
 		"a2": 0.000182,
 		"a3": 0.000588,
@@ -119,7 +119,7 @@
 		"c4": 0.00000294,
 		"d": -0.000193
 	},
-	"https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/ep-marine": {
+	"https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/EP_marine": {
 		"a1": 0.0344,
 		"a2": 0.0313,
 		"a3": 0.068,
@@ -138,7 +138,7 @@
 		"c4": 0.00312,
 		"d": -0.0104
 	},
-	"https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/ep-terrestrial": {
+	"https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/EP_terrestrial": {
 		"a1": 0.418,
 		"a2": 0.346,
 		"a3": 0.792,
@@ -157,7 +157,7 @@
 		"c4": 0.0038,
 		"d": -0.136
 	},
-	"https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/poop": {
+	"https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/POCP": {
 		"a1": 0.112,
 		"a2": 0.103,
 		"a3": 0.343,
@@ -176,7 +176,7 @@
 		"c4": 0.00279,
 		"d": -0.0368
 	},
-	"https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/adp-elements": {
+	"https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/ADP_MM": {
 		"a1": 0.000368,
 		"a2": 0.0000419,
 		"a3": 0.000053,
@@ -195,7 +195,7 @@
 		"c4": 2.83e-7,
 		"d": -0.0000305
 	},
-	"https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/adp-fossil": {
+	"https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/ADP_fossil": {
 		"a1": 214,
 		"a2": 330,
 		"a3": 3230,
@@ -214,7 +214,7 @@
 		"c4": 8.97,
 		"d": -61.7
 	},
-	"https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/wdp": {
+	"https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/FW": {
 		"a1": 11.8,
 		"a2": 0.943,
 		"a3": 15,
@@ -238,5 +238,5 @@
 		"https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcCoveringCLADDING"
 	],
 	"https://identifier.buildingsmart.org/uri/etim/etim/9.0/prop/EF016887": "2100",
-	"https://identifier.buildingsmart.org/uri/etim/etim/9.0/class/EC012348/prop/undefined_set/EF010130": "F2"
+	"https://identifier.buildingsmart.org/uri/etim/etim/9.0/prop/EF010130": "F2"
 }

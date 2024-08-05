@@ -238,5 +238,5 @@
 		"https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcWallSOLIDWALL"
 	],
 	"https://identifier.buildingsmart.org/uri/etim/etim/9.0/prop/EF016887": "800",
-	"https://identifier.buildingsmart.org/uri/etim/etim/9.0/class/EC012348/prop/undefined_set/EF010130": "F2"
+	"https://identifier.buildingsmart.org/uri/etim/etim/9.0/prop/EF010130": "F2"
 }

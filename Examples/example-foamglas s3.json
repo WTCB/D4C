@@ -414,6 +414,7 @@
     "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/nature-of-waste": "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/nature-of-waste/value/inert"
     "https://www.w3.org/2002/07/owl#equivalentClass": [
         "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcCoveringINSULATION",
-        "https://identifier.buildingsmart.org/uri/rcn/WASTEie/0.0.8/class/WCIN"
+        "https://identifier.buildingsmart.org/uri/rcn/WASTEie/0.0.8/class/WCIN",
+        "http://data.europa.eu/6p8/low2015/1706"
     ]
 }

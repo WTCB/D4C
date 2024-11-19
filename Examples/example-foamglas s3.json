@@ -1,5 +1,5 @@
 {
-    "id": "https://some-link-to-foamglass.be/viewer/5214b728-b062-4662-9722-22ef1214c08c/foamglas_s3",
+    "id": "https://www.foamglas.com/en/products/fgbs3slabs",
     "http://www.w3.org/2000/01/rdf-schema#label": "Foamglas S3",
     "http://xmlns.com/foaf/0.1/Organization": "Pittsburgh Corning Europe",
     "https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/referenceunittype":"declared unit",
@@ -431,6 +431,13 @@
     "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.2/prop/pre-consumer-public-threshold": false,
     "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.2/prop/post-consumer-threshold": true,
     "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.2/prop/post-consumer-public-threshold": false,
+
+
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/Category": "Glass",
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/Weight": 2.23,
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/MassDensity": 165,
+    "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.2/prop/best-outcome-for-cw": "Prepare material for reuse onsite" ,
+    "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.2/prop/probable-outcome-for-cw": "Onsite material recovery as backfill/landscaping" ,
 
     "https://www.w3.org/2002/07/owl#equivalentClass": [
         "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcCoveringINSULATION",

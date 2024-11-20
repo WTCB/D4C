@@ -433,7 +433,8 @@
     "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.2/prop/post-consumer-public-threshold": false,
 
 
-    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/Category": "Glass",
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/Category": "Insulation materials",
+    "https://identifier.buildingsmart.org/uri/rcn/EWC/0.1.0" : "https://identifier.buildingsmart.org/uri/rcn/EWC/0.1.0/class/17%2006%2004",
     "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/Weight": 2.23,
     "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/MassDensity": 165,
     "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.2/prop/best-outcome-for-cw": "Prepare material for reuse onsite" ,

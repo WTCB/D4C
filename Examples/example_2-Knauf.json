@@ -172,7 +172,7 @@
     "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/Weight": 25.0,
     "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/MassDensity": 1200,
     "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.2/prop/best-outcome-for-cw": "Prepare material for reuse onsite",
-    "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.2/prop/probable-outcome-for-cw": "Onsite material recovery as backfill/landscaping"
+    "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.2/prop/probable-outcome-for-cw": "Onsite material recovery as backfill/landscaping",
 
     "https://www.w3.org/2002/07/owl#equivalentClass": [
         "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcCoveringCLADDING"

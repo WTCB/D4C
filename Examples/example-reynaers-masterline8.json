@@ -82,9 +82,38 @@
         "d": -7.70E+02
     },
     "https://identifier.buildingsmart.org/uri/LCA/LCA/3.0/prop/SERL": 60,
+    
+    "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.2/prop/pre-consumer-material-0": false,
+    "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.2/prop/pre-consumer-material-0-10": true,
+    "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.2/prop/pre-consumer-material-10-25": false,
+    "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.2/prop/pre-consumer-material-25-50": false,
+    "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.2/prop/pre-consumer-material-50-75": false,
+    "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.2/prop/pre-consumer-material-75-95": false,
+    "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.2/prop/pre-consumer-material-95-99": false,
+    "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.2/prop/pre-consumer-material-99-100": false,
+    "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.2/prop/pre-consumer-public-data": true,
+    "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.2/prop/post-consumer-material-0": false,
+    "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.2/prop/post-consumer-material-0-10": true,
+    "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.2/prop/post-consumer-material-10-25": false,
+    "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.2/prop/post-consumer-material-25-50": false,
+    "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.2/prop/post-consumer-material-50-75": false,
+    "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.2/prop/post-consumer-material-75-95": false,
+    "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.2/prop/post-consumer-material-95-99": false,
+    "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.2/prop/post-consumer-material-99-100": false,
+    "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.2/prop/post-consumer-public-data": true,
+    "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.2/prop/pre-consumer-threshold": false,
+    "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.2/prop/pre-consumer-public-threshold": true,
+    "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.2/prop/post-consumer-threshold": true,
+    "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.2/prop/post-consumer-public-threshold": true,
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/Category": "Aluminium",
+    "https://identifier.buildingsmart.org/uri/rcn/EWC/0.1.0": "https://identifier.buildingsmart.org/uri/rcn/EWC/0.1.0/class/17 04 02",
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/Weight": 300,
+    "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/prop/MassDensity": 2700,
+    "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.2/prop/best-outcome-for-cw": "Prepare material for reuse onsite",
+    "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.2/prop/probable-outcome-for-cw": "Onsite material recovery as backfill/landscaping",
+    
     "https://www.w3.org/2002/07/owl#equivalentClass": [
         "https://identifier.buildingsmart.org/uri/buildingsmart/ifc/4.3/class/IfcWindow"
-    ],
-    "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/pre-consumer-material": 30,
-    "https://identifier.buildingsmart.org/uri/bw/D4C-LCA/0.1/prop/post-consumer-material": 2.259
+    ]
+
 }
